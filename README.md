@@ -1,2 +1,2 @@
 # Web-Tech-Finals
-Project
+Project made by Quinn Harvey G. Pineda
