@@ -328,11 +328,9 @@ strong {
   margin: auto;
   height: 100px;
   width: 150px;
+  padding: 5px;
 }
-.imgpartnersmiyagi{
-  height: 100px;
-  width: 150px;
-}
+
 /*---------------------------------------
   NAVIGATION               
 -----------------------------------------*/
@@ -669,7 +667,7 @@ strong {
 -----------------------------------------*/
 .slick-testimonial .slick-list,
 .slick-testimonial .slick-track {
-  height: 100%;
+  height: 50%;
 }
 
 .slick-testimonial {
@@ -696,6 +694,7 @@ strong {
 
 .slick-testimonial .slick-dots {
   text-align: center;
+  
 }
 
 .slick-testimonial .slick-dots li {
@@ -919,7 +918,7 @@ button:focus:not(:focus-visible) {
 }
 
 .product-image {
-  transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;  
 }
 
 .product-thumb:hover .product-image {
@@ -980,6 +979,14 @@ button:focus:not(:focus-visible) {
   padding-bottom: 6px;
 }
 
+/*---------------------------------------
+  PRODUCT SMALL              
+-----------------------------------------*/
+.product-small {
+  background: var(--white-color);
+  position: relative;
+  transition: all 0.5s ease-out;
+}
 /*---------------------------------------
   CONTACT              
 -----------------------------------------*/
@@ -1174,7 +1181,7 @@ button:focus:not(:focus-visible) {
   }
 
   .slick-testimonial-caption {
-    padding: 6rem 3rem 4rem 3rem;
+    padding: 6rem 3rem 10rem 3rem;
   }
 
   .slick-slideshow .slick-dots li {
@@ -1205,3 +1212,64 @@ button:focus:not(:focus-visible) {
   }
 }
 
+/*---------------------------------------
+ Product detailsS               
+-----------------------------------------*/
+.small-img-grp{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 7px;
+  padding-left: 7px;
+  cursor: pointer;
+}
+
+
+.star-rating input:checked ~ label {
+  color: #f8d64e;
+}
+
+.rating-bar {
+  width: 30%;
+  height: 20px;
+  background-color: #eee;
+  margin-top: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.filled-bar {
+  height: 40px;
+  background-color: #f8d64e;
+}
+
+.paymentmethodspicturefooter{
+  display: block;
+  margin: auto;
+  height: 60px;
+  width: 70px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.Logofooter{
+  height: 200px;
+  width: 200px;
+  padding-bottom: 10px;
+  margin-left: 80px;
+}
+
+.footerinsta{
+  height: 200px;
+  width: 200px;
+  padding-bottom: 10px;
+  margin-left: 30px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+#google_translate_element{
+  margin-left: 80%;
+
+}
